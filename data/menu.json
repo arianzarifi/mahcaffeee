@@ -1,0 +1,205 @@
+{
+    "categories": [
+      {
+        "name": "نوشیدنی گرم",
+        "image": "https://img.icons8.com/?size=100&id=37302&format=png&color=000000",
+        "items": [
+          {
+            "title": "اسپرسو",
+            "prices": [
+            {"size": "", "price": "60,000"}
+          ],
+            "description": "محتویات: تک‌شات معادل ۳۰ میلی‌لیتر و جفت‌شات معادل ۶۰ میلی‌لیتر عصاره غلیظ و خالص قهوه",
+            "image": "assets/images/esperso.webp"
+          },
+          {
+            "title": "اسپرسو ماکیاتو",
+            "prices": [
+            {"size": "", "price": "90,000"}
+          ],
+            "description": "محتویات:اسپرسو شیر با فوم زیاد",
+            "image": "assets/images/ESPRESSO-MACCHIATO.webp"
+          },
+          {
+            
+              "title": "اسپرسو آفوگاتو",
+              "prices": [
+            {"size": "", "price": "95,000"}
+          ],
+              "description": "محتویات:اسپرسو یک اسکوپ بستنی وانیلی",
+              "image": "assets/images/ESPRESSO-AFFOGATO.webp"
+            },
+            {
+              "title": "قهوه دمی",
+              "prices": [
+            {"size": "کوچک", "price": "70000"},
+            {"size": "متوسط", "price": "90000"},
+            {"size": "بزرگ", "price": "110000"}
+          ],
+              "description": "محتویات: قهوه دمی دستگاهی",
+              "image": "assets/images/DAILY-BREW.webp"
+            },
+            {
+              "title": "آمریکانو",
+              "prices": [
+            {"size": "کوچک", "price": "70000"},
+            {"size": "متوسط", "price": "90000"},
+            {"size": "بزرگ", "price": "110000"}
+          ],
+              "description": "محتویات:شات اسپرسو آب داغ",
+              "image": "assets/images/AMERICANO.webp"
+            },
+            {
+              "title": "کافه موکا",
+              "prices": [
+              {"size": "کوچک", "price": "110,000"},
+              {"size": "متوسط", "price": "130,000"},
+              {"size": "بزرگ", "price": "150,000"}
+            ],
+              "description": "محتویات: شات اسپرسو، شکلات چیپسی، شیر با فوم کم",
+              "image": "assets/images/MOCHA.webp"
+            },
+            {
+              "title": "شکلات گرم",
+              "prices": [
+              {"size": "کوچک", "price": "100,000"},
+              {"size": "متوسط", "price": "120,000"},
+              {"size": "بزرگ", "price": "140,000"}
+            ],
+              "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر گرم فوم کم",
+              "image": "assets/images/HOT-CHOCOLATE.webp"
+            }
+            
+          
+        ]
+      },
+      {
+        "name": " نوشیدنی سرد",
+        "image": "https://img.icons8.com/?size=100&id=XQnIy509JzXP&format=png&color=000000",
+        "items": [
+          {
+            "title": "پروتئین کافی ",
+            "prices": [
+            {"size": "", "price": "195,000"}
+            ],
+            "description": "محتویات: شیر(بادام، لبنی)، پودر پروتئین وی شکلاتی، اسپرسو، یخ",
+            "image": "assets/images/Protein-Coffee.webp"
+          },
+          {
+            "title": "آمریکانو سرد",
+            "prices": [
+              {"size": "کوچک", "price": "85,000"},
+              {"size": "متوسط", "price": "100,000"},
+              {"size": "بزرگ", "price": "115,000"}
+            ],
+            "description": "محتویات: شات اسپرسو، آب سرد تصفیه شده، یخ",
+            "image": "assets/images/ICED-AMERICANO.webp"
+          },
+          {
+            "title": "کافه لاته سرد",
+            "prices": [
+              {"size": "کوچک", "price": "100,000"},
+              {"size": "متوسط", "price": "110,000"},
+              {"size": "بزرگ", "price": "120,000"}
+            ],
+            "description": "محتویات: شات اسپرسو، شیر سرد کم چرب، یخ",
+            "image": "assets/images/ICED-LATTE.webp"
+          },
+          {
+            "title": "موکا سرد",
+            "prices": [
+              {"size": "کوچک", "price": "112,000"},
+              {"size": "متوسط", "price": "122,000"},
+              {"size": "بزرگ", "price": "132,000"}
+            ],
+            "description": "محتویات: شات اسپرسو، شکلات چیپسی، شیر سرد کم چرب، یخ",
+            "image": "assets/images/ICED-MOCHA.webp"
+          },
+          {
+            "title": "شکلات سرد",
+            "prices": [
+              {"size": "کوچک", "price": "105,000"},
+              {"size": "متوسط", "price": "115,000"},
+              {"size": "بزرگ", "price": "125,000"}
+            ],
+            "description": "محتویات: شکلات چیپسی، پودر کاکائو، شیر داغ برای میکس، شیر سرد کم چرب، یخ",
+            "image": "assets/images/ICED-CHOCOLATE.webp"
+          },
+          {
+            "title": "کاپچینو سرد",
+            "prices": [
+              {"size": "کوچک", "price": "110,000"},
+              {"size": "متوسط", "price": "120,000"},
+              {"size": "بزرگ", "price": "130,000"}
+            ],
+            "description": "محتویات: شات اسپرسو، طعم دهنده وانیل، شیر سرد کم چرب، یخ",
+            "image": "assets/images/ICED-CAPPUCCINO.webp"
+          }
+        ]
+      },
+      {
+        "name": " کیک ها",
+        "image": "https://img.icons8.com/?size=100&id=107438&format=png&color=000000",
+        "items": [
+          {
+            "title": "دونات شکری ",
+            "prices": [
+            {"size": "", "price": "50,000"}
+            ],
+            "description": "",
+            "image": "assets/images/Canela-Doughnut.webp"
+          },
+          {
+            "title": "دونات شکلاتی دارک",
+            "prices": [
+              {"size": "", "price": "70,000"}
+              
+            ],
+            "description": "",
+            "image": "assets/images/Black-Doughnut.webp"
+          },
+          {
+            "title": "دونات شکلات رنگی",
+            "prices": [
+              {"size": "", "price": "80,000"}
+            ],
+            "description": "",
+            "image": "assets/images/Pinky-Doughnut.webp"
+          },
+          {
+            "title": "پیراشکی کرم‌دار وانیلی",
+            "prices": [
+              {"size": "", "price": "50,000"}
+            ],
+            "description": "",
+            "image": "assets/images/Nostalgia-Pirozhki.webp"
+          },
+          {
+            "title": "کوکی دارک چاکلت",
+            "prices": [
+              {"size": "", "price": "35,000"}
+            ],
+            "description": "",
+            "image": "assets/images/DARK-CHOCOLATE-COOKIE.webp"
+          },
+          {
+            "title": "تیرامیسو",
+            "prices": [
+              {"size": "", "price": "145,000"}
+            ],
+            "description": "",
+            "image": "assets/images/TIRAMISU.webp"
+          },
+          {
+            "title": "چیز کیک",
+            "prices": [
+              {"size": "کوچک", "price": "120,000"}
+            ],
+            "description": "",
+            "image": "assets/images/SAN-SEBASTIAN.webp"
+          }
+        ]
+      }
+    ]
+  }
+  

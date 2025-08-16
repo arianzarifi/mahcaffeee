@@ -1,0 +1,140 @@
+@media(max-width:780px){
+    .footer-team{
+        font-size: 13px;
+    }
+    .paragraph-copyright{
+        font-size: 13px;
+    }
+}
+@media(max-width:768px){
+    
+        .head-site{
+            font-size: 22px;
+            margin-right: -127px;
+        }
+        .head-p{
+            font-size: 15px;
+            margin-right: -127px;
+        }
+        .social-icon{
+            width: 35px;
+            height: 35px;
+            margin-left: -40px;
+        
+        }
+        .link-footer.header{
+            width: 30px;
+            height: 30px;
+        }
+        
+}
+@media(max-width:667px){
+    .copy-right-data{
+        flex-direction: column;
+        padding:20px 1px;
+    }
+    .footer-team{
+        font-size: 14px;
+        padding: 3px 1px;
+    }
+    .paragraph-copyright{
+        font-size: 14px;
+    }
+}
+@media(max-width:530px){
+    .footer-container{
+        flex-direction: column;
+        margin-right: 30px;
+    }
+    .social-footer{
+        font-size: 15px;
+        margin-right: 90px;
+    }
+    .logo-footer{
+        margin-left: 200px;
+    }
+}
+@media(max-width:480px){
+    .header-main{
+        flex-direction: column;
+        /* align-items: center; */
+        
+    }
+    header-main1,
+  .header-main2 {
+    margin: 10px 0;
+    
+    }
+    .header-main2{
+        margin-right: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-left: 130px;
+        margin-bottom: 50px;
+          
+    }
+    .menu-section aside{
+        width: 100px;
+    }
+    .name-cat{
+        font-size: 14px;
+    }
+    .header-main{
+        /* background-image:
+      linear-gradient(rgba(111, 78, 55, 0.6), rgba(111, 78, 55, 0.6)),
+      url(../images/header-img.jpg); */
+      background-size: 480px;
+      height: 320px;
+    }
+    .header-main1{
+        margin-top: 190px;
+    }
+    .header-div{
+        padding-bottom: 27px;
+        
+    }
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .card{
+        width: 185px;
+        margin-right: -40px;
+      }
+      .description{
+        font-size: 10px;
+      }
+      .price-item{
+        font-size: 12px;
+      }
+      
+    
+    
+      
+}
+@media(max-width:346px){
+    
+    .description{
+        font-size: 15px;  
+  }
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .card{
+    width: 160px;
+    margin-right: -45px;
+  }
+  .description{
+    font-size: 14px;
+  }
+  .price-item{
+    font-size: 12px;
+    margin-right: -1px;
+  }
+  
+}
