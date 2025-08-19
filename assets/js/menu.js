@@ -51,10 +51,11 @@ fetch('data/menu.json') // داده‌ها را از فایل جیسون می‌
         <img src="${item.image}" alt="${item.title}" style="width:100%; height:140px; object-fit:cover; border-radius:8px;" class = "item-img">
         <br>
           <h3>${item.title}</h3>
-          <span class = "description">${item.description}</span>
-              <div class="prices">
-              ${pricesHTML}
-              </div>
+          <div class="prices">
+          ${pricesHTML}
+          </div>
+          <span class="description">${item.description}</span>
+       
         
         `;
         
