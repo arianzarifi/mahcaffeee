@@ -41,19 +41,7 @@
         font-size: 14px;
     }
 }
-@media(max-width:530px){
-    .footer-container{
-        flex-direction: column;
-        margin-right: 30px;
-    }
-    .social-footer{
-        font-size: 15px;
-        margin-right: 90px;
-    }
-    .logo-footer{
-        margin-left: 200px;
-    }
-}
+
 @media(max-width:480px){
     .header-main{
         flex-direction: column;
