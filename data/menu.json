@@ -2,13 +2,13 @@
     "categories": [
       {
         "name": "نوشیدنی گرم",
-        "image": "https://img.icons8.com/?size=100&id=37302&format=png&color=000000",
+        "image": "assets/images/HOT-CHOCOLATE1.webp",
         "items": [
           {
             "title": "اسپرسو",
             "prices": [
             {"size": "تک شات", "price": "60,000"},
-            {"size": "جفت شات", "price": "60,000"}
+            {"size": "جفت شات", "price": "80,000"}
           ],
             "description": "محتویات: تک‌شات معادل ۳۰ میلی‌لیتر و جفت‌شات معادل ۶۰ میلی‌لیتر عصاره غلیظ و خالص قهوه",
             "image": "assets/images/esperso.webp"
@@ -16,7 +16,8 @@
           {
             "title": "اسپرسو ماکیاتو",
             "prices": [
-            {"size": "", "price": "90,000"}
+              {"size": "تک شات", "price": "60,000"},
+              {"size": "جفت شات", "price": "80,000"}
           ],
             "description": "محتویات:اسپرسو شیر با فوم زیاد",
             "image": "assets/images/ESPRESSO-MACCHIATO.webp"
@@ -25,7 +26,8 @@
             
               "title": "اسپرسو آفوگاتو",
               "prices": [
-            {"size": "", "price": "95,000"}
+                {"size": "تک شات", "price": "60,000"},
+                {"size": "جفت شات", "price": "80,000"}
           ],
               "description": "محتویات:اسپرسو یک اسکوپ بستنی وانیلی",
               "image": "assets/images/ESPRESSO-AFFOGATO.webp"
@@ -76,12 +78,12 @@
       },
       {
         "name": " نوشیدنی سرد",
-        "image": "https://img.icons8.com/?size=100&id=XQnIy509JzXP&format=png&color=000000",
+        "image": "assets/images/ICED-CARAMEL-MACCHIATO.webp",
         "items": [
           {
             "title": "پروتئین کافی ",
             "prices": [
-            {"size": "", "price": "195,000"}
+            {"size": "متوسط:", "price": "195,000"}
             ],
             "description": "محتویات: شیر(بادام، لبنی)، پودر پروتئین وی شکلاتی، اسپرسو، یخ",
             "image": "assets/images/Protein-Coffee.webp"
@@ -140,7 +142,7 @@
       },
       {
         "name": " کیک ها",
-        "image": "https://img.icons8.com/?size=100&id=107438&format=png&color=000000",
+        "image": "assets/images/CARROT-CAKE.webp",
         "items": [
           {
             "title": "دونات شکری ",

@@ -26,111 +26,88 @@
     
   }
   /*استایل های هدر*/
-.header-menu{
-    background-color: #6F4E37;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 300px;
-    width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  position: fixed;   
-  top: 0;            
-  left: 0; 
-  z-index: 1000;     
 
+
+.header-head {
+  width: 100%;
+  height: 220px;
+  background-image: 
+    linear-gradient(rgba(111, 78, 55, 0.6), rgba(111, 78, 55, 0.6)),
+    url('../images/header-img.jpg'); /* عکس قهوه */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  
 }
 
-
-.header-main{
-    display: flex;
-    justify-content: space-between;
-    min-width: 100%;
-    height: 400px;
-    background-image:
-      linear-gradient(rgba(111, 78, 55, 0.6), rgba(111, 78, 55, 0.6)),
-      url(../images/header-img.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: 0;
-    
-    
-}
-.header-main1{
-    margin-right: 150px;
-    color: #fff;
-    margin-top: 200px;
-    position: relative; 
+.header-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 500px;
+  /* flex-wrap: wrap; */
 }
 
-.logo-wrapper {
-  position: absolute;
-  top: -180px;  
-  right: -130px;  
-}
-
+/* لوگو */
 .logo {
   width: 60px;
-  height: auto;
-  border-radius: 30px;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 1265px;
 }
-.head-site{
-    font-size: 32px;
-    
-}
-.head-p{
-    font-size: 20px;
-    
-}
-.header-main2{
-    margin-left: 300px;
-    margin-top: 200px;
 
+/* متن هدر */
+.header-text {
+  text-align: center;
+  margin: 0 20px;
 }
+
+.head-site {
+  font-size: 32px;
+  margin: 0;
+  
+}
+
+.head-p {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+}
+
+/* آیکون‌ها با دایره پیش‌زمینه */
+.header-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .social-icon {
-
-    width: 64px;
-    height: 64px;
-    background-color: #FF6E1F;
-    /*رنگپس‌زمینهاینستاگرام*/
-    border-radius: 50%;
-    /*گردکردنپس‌زمینه*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    -webkit-transition: background-color 0.3s ease;
-    -moz-transition: background-color 0.3s ease;
-    -ms-transition: background-color 0.3s ease;
-    -o-transition: background-color 0.3s ease;
-    margin-bottom: 12px;
-    
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FF6E1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-  
-  
-  
-  .social-icon svg {
-    width: 24px;
-    height: 24px;
-    fill: white;
-  }
-  /* استایل های main بخش منو */
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+  width: 60%;   /* تنظیم درصد تا داخل دایره خوب جا بشه */
+  height: 60%;
+  object-fit: contain; /* حفظ نسبت تصویر */
+  display: block;      /* حذف فاصله زیر تصویر */
+  margin: 0;           /* حذف margin اضافی */
+  padding: 0;  
+}
+
+
   .menu-section {
     flex: 1;
     /*تاکلفضایبینهدروفوترروبگیره*/
@@ -216,15 +193,24 @@
   .card{
     /* background: #fff; */
     /* border-radius: 10px; */
-    padding: 30px;
     /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
-    justify-content: space-between;
-    min-height: 350px; /* ارتفاع ثابت */
-    width: 220px;
-    border-bottom: 2px solid #BDBDBD;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border-top: 2px solid #BDBDBD; */
+     padding-bottom: 300px;
+    width: 100%;
+  padding: 2px;
+  min-height: 380px; /* یا هر حداقلی برای نظم بیشتر */
+  border-bottom: 3px solid #BDBDBD; /* خط پایین */
+  
+  
   }
  .price-item{
   font-size: 15px;
+ }
+ .title-cart{
+  margin-bottom: 60px;
  }
   .description{
     margin-top: 20px;
@@ -239,13 +225,13 @@
     text-overflow: ellipsis;
     color: #6B6767;
   }
-  .hr1{
+  /* .hr1{
     margin-top: 7px;
-    width: 180px;
-    margin-left: 15px;
+    width: 100%;
+    margin-left: -10px;
     height: 3px;
-    background-color: #6F4E37;
-  }
+    background-color: #BDBDBD;
+  } */
   .img-cat{
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -287,4 +273,7 @@
   align-items: center;
   justify-content: center;
   gap: 1.125em; /* use em for flexible gap */
+}
+.copy-right-header{
+  margin-right: 450px;
 }

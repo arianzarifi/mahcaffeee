@@ -48,15 +48,14 @@ fetch('data/menu.json') // داده‌ها را از فایل جیسون می‌
           pricesHTML += `<p class="price-item">${p.size} ${p.price} </p> `;
         });
         card.innerHTML = `
-        <img src="${item.image}" alt="${item.title}" style="width:100%; height:140px; object-fit:cover; border-radius:8px;" class = "item-img">
+        <img src="${item.image}" alt="${item.title}" style="width:100%; height:200px; object-fit:cover; " class = "item-img">
         <br>
-          <h3>${item.title}</h3>
+          <h3 class = ""title-cart>${item.title}</h3>
           <div class="prices">
           ${pricesHTML}
           </div>
           <span class="description">${item.description}</span>
        
-        
         `;
         
         menuItems.appendChild(card);

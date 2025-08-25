@@ -1,3 +1,9 @@
+@media(max-width:935px){
+  .header-main{
+    margin-left: 150px;
+    margin-right: 200px;
+  }
+}
 @media(max-width:780px){
     .footer-team{
         font-size: 13px;
@@ -5,23 +11,43 @@
     .paragraph-copyright{
         font-size: 13px;
     }
+    .copy-right-header{
+      margin-right: 0;
+    }
 }
 @media(max-width:768px){
     
-        .head-site{
-            font-size: 22px;
-            margin-right: -127px;
-        }
-        .head-p{
-            font-size: 15px;
-            margin-right: -127px;
-        }
-        .social-icon{
-            width: 35px;
-            height: 35px;
-            margin-left: -40px;
-        
-        }
+  .header-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+  .header-icons {
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .social-icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 18px;
+  }
+  .social-icon img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .head-site {
+    font-size: 24px;
+  }
+
+  .head-p {
+    font-size: 16px;
+  }
+
         .link-footer.header{
             width: 30px;
             height: 30px;
@@ -41,28 +67,39 @@
         font-size: 14px;
     }
 }
+@media(max-width: 600px){
+  .header-main {
+    display: flex;
+    flex-direction: column; /* زیر هم قرار گرفتن */
+    align-items: center;     /* وسط‌چین کردن همه */
+    justify-content: center;
+    margin: 0;              /* حذف margin‌های بزرگ */
+    padding: 10px;
+  }
+
+  .logo-wrapper {
+    margin: 0 auto; /* وسط‌چین لوگو */
+  }
+
+
+
+
+ 
+}
 
 @media(max-width:480px){
-    .header-main{
-        flex-direction: column;
-        /* align-items: center; */
-        
-    }
-    header-main1,
-  .header-main2 {
-    margin: 10px 0;
-    
-    }
-    .header-main2{
-        margin-right: 140px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-        margin-left: 130px;
-        margin-bottom: 50px;
-          
-    }
+  .head-site {
+    font-size: 20px;
+  }
+
+  .head-p {
+    font-size: 14px;
+  }
+
+  .social-icon img {
+    width: 25px;
+    height: 25px;
+  }
     .menu-section aside{
         width: 100px;
     }
@@ -70,11 +107,14 @@
         font-size: 14px;
     }
     .header-main{
-        /* background-image:
-      linear-gradient(rgba(111, 78, 55, 0.6), rgba(111, 78, 55, 0.6)),
-      url(../images/header-img.jpg); */
-      background-size: 480px;
-      height: 320px;
+      flex-direction: column;       /* چینش عمودی */
+      align-items: center;          /* وسط چین عمودی */
+      justify-content: center;      /* وسط چین افقی */
+      margin: 0;                    /* حذف margin منفی */
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
     }
     .header-main1{
         margin-top: 190px;
@@ -124,5 +164,5 @@
     font-size: 12px;
     margin-right: -1px;
   }
-  
+ 
 }
