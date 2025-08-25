@@ -18,6 +18,7 @@
     text-align: center;
     background-color: #fff;
     direction: rtl;
+    overflow-x: hidden;
   }
   .container{
     max-width: 1200px;
